@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Formulario</title>
+ </head>
+   <body style="background-color: rgb(133, 156, 107) ;">
+              <h1><p></p>Cadastro de Emprego<p></p></h1>
+       <form action="/action_page.php">
+                <fieldset style= "background-color: #76b2da;">
+              <label for="fname"><b>Nome:</b></label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname"><b>Sobrenome:</b></label>
+              <input type="text" id="lname" name="lname"><br><br>
+           </fieldset>
+              <label for="email"><b>Email:</b></label>
+              <input type="email" id="lname" name="email">
+              <p><b>De qual lado da aplicação você desenvolve?
+              Front-end<input type="radio" name="citizenship" />
+              Back-end<input type="radio" name="citizenship" />
+              Fulltack<input type="radio" name="citizenship" /></p>
+              <p><b>Senioridade</b><select name="select"><option value="Selecione">selecione</option>
+              <option value="Junior">Junior</option>
+              <option value="Pleno">Pleno</option>
+              <option value="Senior">Senio</option></select></p>
+          <fieldset style= "background-color: #6b69cc;">
+               <p><b>Selecione as tecnologias que ultiliza</b></p>
+               <input type="checkbox" id="HTML" name="HTML">
+               <label for="HTML">HTML</label>
+               <input type="checkbox" id="CSS" name="CSS">
+               <label for="CSS">CSS</label>
+               <input type="checkbox" id="JavaScript" name="JavaScript">
+               <label for="JavaScript">JavaScript</label>
+               <input type="checkbox" id="PHP" name="PHP">
+               <label for="PHP">PHP</label>
+               <input type="checkbox" id="C#" name="C#">
+               <label for="C#">C#</label>
+               <input type="checkbox" id="Python" name="Python">
+               <label for="Python">Python</label>
+               <input type="checkbox" id="Java" name="Java">
+               <label for="Java">Java</label>
+           </fieldset><br><br>
+           <div class="escreva">
+            <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+            <p>Conte um pouco mais sobrea sua experience:</p>
+           </div>
+               <input type="submit" value="Concluido" />
+        </form>
+    </body>
+</html>
